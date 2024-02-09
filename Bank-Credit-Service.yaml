@@ -1,0 +1,15 @@
+api:
+  Bank-Customer-Service:
+    uri: http://localhost:9003/api/customer
+  Bank-Product-Service:
+    uri: http://localhost:9004/api/product
+  Bank-Configuration-Service:
+    uri: http://localhost:9005/api/configuration
+server:
+  port: '9006'
+spring:
+  data:
+    mongodb:
+      database: bank
+      port: '27017'
+      host: localhost
